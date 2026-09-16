@@ -28,18 +28,21 @@ function MoonPhaseIcon(props: MoonPhaseIconProps) {
 export function MoonPhase() {
   const [phaseIndex, setPhaseIndex] = useState(0);
   const maxIndex = moonPhases.length - 1;
+
   function handlePrev() {
     if (phaseIndex === 0) {
       return setPhaseIndex(maxIndex);
     }
     return setPhaseIndex(phaseIndex - 1);
   }
+
   function handleNext() {
     if (phaseIndex < maxIndex) {
       return setPhaseIndex(phaseIndex + 1);
     }
     return setPhaseIndex(0);
   }
+
   return (
     <div className="moonphase">
       <MoonPhaseIcon phase={phaseIndex}></MoonPhaseIcon>
