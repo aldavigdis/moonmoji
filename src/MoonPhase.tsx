@@ -16,7 +16,7 @@ type MoonPhaseIconProps = { phase: number }
 function MoonPhaseIcon(props: MoonPhaseIconProps) {
   const iconClass = "icon " + moonPhases[props.phase].phase;
   return (
-    <div className="">
+    <div>
         <div className={iconClass}>
             <span>{moonPhases[props.phase].emoji}</span>
         </div>
@@ -29,7 +29,7 @@ export function MoonPhase() {
   const [phaseIndex, setPhaseIndex] = useState(0);
   const maxIndex = moonPhases.length - 1;
   function handlePrev() {
-    if (phaseIndex == 0) {
+    if (phaseIndex === 0) {
       return setPhaseIndex(maxIndex);
     }
     return setPhaseIndex(phaseIndex - 1);

@@ -16,6 +16,20 @@ main {
   text-align: center;
 }
 
+button {
+  font-size: 12px;
+  font-weight: bold;
+  background: #001040;
+  color: #fff;
+  border: 1px solid #002080;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #001560;
+}
+
 .moonphase {
   display: flex;
   flex-direction: column;
