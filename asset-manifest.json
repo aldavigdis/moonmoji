@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/moonmoji/static/css/main.72100cac.css",
-    "main.js": "/moonmoji/static/js/main.1a25ba5c.js",
+    "main.css": "/moonmoji/static/css/main.f41b2b7c.css",
+    "main.js": "/moonmoji/static/js/main.3fbb4859.js",
     "static/js/453.dbe31fff.chunk.js": "/moonmoji/static/js/453.dbe31fff.chunk.js",
     "index.html": "/moonmoji/index.html",
-    "main.72100cac.css.map": "/moonmoji/static/css/main.72100cac.css.map",
-    "main.1a25ba5c.js.map": "/moonmoji/static/js/main.1a25ba5c.js.map",
+    "main.f41b2b7c.css.map": "/moonmoji/static/css/main.f41b2b7c.css.map",
+    "main.3fbb4859.js.map": "/moonmoji/static/js/main.3fbb4859.js.map",
     "453.dbe31fff.chunk.js.map": "/moonmoji/static/js/453.dbe31fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72100cac.css",
-    "static/js/main.1a25ba5c.js"
+    "static/css/main.f41b2b7c.css",
+    "static/js/main.3fbb4859.js"
   ]
 }
